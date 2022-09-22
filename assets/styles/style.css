@@ -24,7 +24,7 @@ main {
         width: 375px;
         height: 812px;
     */
-    
+
     width: 100vw;
     min-height: 812px;
     height: 100vh;
@@ -79,11 +79,13 @@ a {
 }
 
 p {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    display: inline;
+
 }
 
 ul {
-    margin-top: 4rem;
+    margin-top: 2rem;
     list-style: none;
     padding: 0;
     
@@ -92,3 +94,12 @@ ul {
     
     justify-content: center;
 }
+
+li a {
+    transition: 0.3s;
+    display: inline-block;
+  }
+  
+  li a:hover {
+    transform: translateY(-10px);
+  }
