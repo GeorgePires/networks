@@ -3,7 +3,7 @@ const LinksSocialMedia = {
     github: "GeorgePires",
     instagram: "acld.sa",
     linkedin: "in/georgeasp-pi/",
-    twitter: "GeorgePires"
+    twitter: ""
 }
 
 function changeSocialMediaLinks() {
